@@ -60,7 +60,7 @@ def compute_U(V, W, H, eps=1e-12):
 
 errors = []
 
-def l21_norm_mul(V, W, H, max_iterations, eps=1e-12, delta=1e-12):
+def l21_norm_mur(V, W, H, max_iterations, eps=1e-12, delta=1e-12):
     for it in range(max_iterations):
         U = compute_U(V, W, H, eps=eps)
 
@@ -80,7 +80,7 @@ def l21_norm_mul(V, W, H, max_iterations, eps=1e-12, delta=1e-12):
 
     return W, H
 
-W, H = l21_norm_mul(V, W, H, max_iterations=200)
+W, H = l21_norm_mur(V, W, H, max_iterations=200)
 
 
 print("final H = \n", np.round(H, 2))

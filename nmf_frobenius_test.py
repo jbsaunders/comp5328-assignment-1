@@ -33,7 +33,7 @@ print("starting F error = ", frobenius_error(X, W, H))
 
 errors = []
 
-def mul(X, W, H, max_iterations, eps=1e-12):
+def mur(X, W, H, max_iterations, eps=1e-12):
     for it in range(max_iterations):
         numerator_H = W.T @ X
         denominator_H = (W.T @ W @ H)
@@ -49,7 +49,7 @@ def mul(X, W, H, max_iterations, eps=1e-12):
 
     return W, H
 
-W, H = mul(X, W, H, max_iterations=200)
+W, H = mur(X, W, H, max_iterations=200)
 
 print("final H = \n", np.round(H, 2))
 print("final W = \n", np.round(W, 2))
