@@ -1,59 +1,91 @@
-===== Experiment Log Start =====
+===== Experiment Log Start ======================================
 
-===== New Experiment: Salt & Pepper Noise:ORL =====
-dataset  nmf_type  k  max_runs  RRE_mean  RRE_std  ACC_mean  ACC_std  NMI_mean  NMI_std  noise_type  noise_p  noise_r normalization
-    ORL Frobenius 50         5  0.161811 0.000153  0.723889 0.025252  0.842711 0.009452 salt_pepper     0.01      0.5     per_image
-    ORL Frobenius 50         5  0.180290 0.000109  0.733333 0.012044  0.846517 0.006492 salt_pepper     0.05      0.3     per_image
-    ORL Frobenius 50         5  0.204553 0.000376  0.683333 0.022013  0.809048 0.015372 salt_pepper     0.10      0.5     per_image
-    ORL Frobenius 50         5  0.208034 0.000506  0.686111 0.014380  0.819026 0.009711 salt_pepper     0.10      0.7     per_image
-    ORL Frobenius 50         5  0.253549 0.000438  0.600000 0.026352  0.751127 0.012395 salt_pepper     0.20      0.5     per_image
-    ORL Frobenius 50         5  0.315491 0.000440  0.451111 0.008352  0.629559 0.010279 salt_pepper     0.30      0.3     per_image
-    ORL Frobenius 50         5  0.323149 0.000175  0.478889 0.026093  0.655750 0.010727 salt_pepper     0.30      0.7     per_image
-    ORL       L21 50         5  0.164097 0.000319  0.722222 0.018173  0.844148 0.012560 salt_pepper     0.01      0.5     per_image
-    ORL       L21 50         5  0.183695 0.000345  0.705556 0.019245  0.831476 0.012379 salt_pepper     0.05      0.3     per_image
-    ORL       L21 50         5  0.206473 0.000497  0.678889 0.028361  0.815984 0.017990 salt_pepper     0.10      0.5     per_image
-    ORL       L21 50         5  0.210185 0.000335  0.691667 0.009782  0.822219 0.006561 salt_pepper     0.10      0.7     per_image
-    ORL       L21 50         5  0.256738 0.000184  0.583889 0.033766  0.741322 0.025948 salt_pepper     0.20      0.5     per_image
-    ORL       L21 50         5  0.315750 0.000375  0.449444 0.012348  0.627653 0.013197 salt_pepper     0.30      0.3     per_image
-    ORL       L21 50         5  0.325617 0.000669  0.468333 0.026329  0.643005 0.012739 salt_pepper     0.30      0.7     per_image
+===== 2025-10-07 17:08:18.223897 == New Experiment: Salt & Pepper Noise =====
+dataset  nmf_type  k  max_runs  RRE_mean  RRE_std  ACC_mean  ACC_std  NMI_mean  NMI_std  noise_type  noise_p  noise_r block_ratio num_blocks normalization
+    ORL Frobenius 50         5  0.161758 0.000167  0.707222 0.018642  0.833950 0.007693 salt_pepper     0.01      0.5        None       None     per_image
+    ORL Frobenius 50         5  0.180862 0.000357  0.700556 0.024746  0.826906 0.020721 salt_pepper     0.05      0.3        None       None     per_image
+    ORL Frobenius 50         5  0.203883 0.000247  0.687778 0.024318  0.819339 0.014237 salt_pepper     0.10      0.5        None       None     per_image
+    ORL Frobenius 50         5  0.207204 0.000474  0.687778 0.030459  0.813111 0.013854 salt_pepper     0.10      0.7        None       None     per_image
+    ORL Frobenius 50         5  0.255044 0.000411  0.585000 0.016349  0.744529 0.017723 salt_pepper     0.20      0.5        None       None     per_image
+    ORL Frobenius 50         5  0.314922 0.000614  0.451667 0.026678  0.633060 0.024325 salt_pepper     0.30      0.3        None       None     per_image
+    ORL Frobenius 50         5  0.323548 0.000584  0.455556 0.021731  0.632417 0.020803 salt_pepper     0.30      0.7        None       None     per_image
+    ORL       L21 50         5  0.163886 0.000220  0.732778 0.008678  0.844673 0.009626 salt_pepper     0.01      0.5        None       None     per_image
+    ORL       L21 50         5  0.183770 0.000230  0.718333 0.018392  0.834866 0.009018 salt_pepper     0.05      0.3        None       None     per_image
+    ORL       L21 50         5  0.206972 0.000255  0.676667 0.022333  0.821385 0.016500 salt_pepper     0.10      0.5        None       None     per_image
+    ORL       L21 50         5  0.210236 0.000355  0.678889 0.028739  0.816920 0.017848 salt_pepper     0.10      0.7        None       None     per_image
+    ORL       L21 50         5  0.256800 0.000453  0.610556 0.033026  0.759285 0.021474 salt_pepper     0.20      0.5        None       None     per_image
+    ORL       L21 50         5  0.314527 0.000431  0.456111 0.038746  0.641460 0.025187 salt_pepper     0.30      0.3        None       None     per_image
+    ORL       L21 50         5  0.325477 0.000623  0.478333 0.016704  0.651793 0.012374 salt_pepper     0.30      0.7        None       None     per_image
+   YALE Frobenius 50         5  0.181714 0.000277  0.270014 0.009323  0.350344 0.004914 salt_pepper     0.01      0.5        None       None     per_image
+   YALE Frobenius 50         5  0.191209 0.000496  0.264900 0.007731  0.354275 0.007005 salt_pepper     0.05      0.3        None       None     per_image
+   YALE Frobenius 50         5  0.216651 0.000719  0.246211 0.006843  0.343966 0.014007 salt_pepper     0.10      0.5        None       None     per_image
+   YALE Frobenius 50         5  0.236066 0.000264  0.243701 0.005920  0.336733 0.012753 salt_pepper     0.10      0.7        None       None     per_image
+   YALE Frobenius 50         5  0.277588 0.000393  0.211994 0.004876  0.294968 0.010135 salt_pepper     0.20      0.5        None       None     per_image
+   YALE Frobenius 50         5  0.306546 0.000699  0.187076 0.008023  0.255190 0.015120 salt_pepper     0.30      0.3        None       None     per_image
+   YALE Frobenius 50         5  0.444045 0.000303  0.159740 0.006513  0.217892 0.005952 salt_pepper     0.30      0.7        None       None     per_image
+   YALE       L21 50         5  0.191669 0.000747  0.265179 0.014703  0.344839 0.009689 salt_pepper     0.01      0.5        None       None     per_image
+   YALE       L21 50         5  0.202201 0.000765  0.259135 0.010933  0.342278 0.012683 salt_pepper     0.05      0.3        None       None     per_image
+   YALE       L21 50         5  0.230291 0.000575  0.241376 0.011499  0.326388 0.012961 salt_pepper     0.10      0.5        None       None     per_image
+   YALE       L21 50         5  0.251385 0.000525  0.236727 0.008584  0.319756 0.008777 salt_pepper     0.10      0.7        None       None     per_image
+   YALE       L21 50         5  0.295324 0.000674  0.200465 0.016277  0.262941 0.019011 salt_pepper     0.20      0.5        None       None     per_image
+   YALE       L21 50         5  0.325958 0.000508  0.173129 0.011593  0.233163 0.013769 salt_pepper     0.30      0.3        None       None     per_image
+   YALE       L21 50         5  0.464268 0.000358  0.149605 0.008011  0.188831 0.008130 salt_pepper     0.30      0.7        None       None     per_image
 
-===== New Experiment: Salt & Pepper Noise:YALE =====
-dataset  nmf_type  k  max_runs  RRE_mean  RRE_std  ACC_mean  ACC_std  NMI_mean  NMI_std  noise_type  noise_p  noise_r normalization
-   YALE Frobenius 70         5  0.165722 0.000335  0.288052 0.008671  0.376535 0.013601 salt_pepper     0.01      0.5     per_image
-   YALE Frobenius 70         5  0.177547 0.000178  0.289075 0.005271  0.367408 0.008242 salt_pepper     0.05      0.3     per_image
-   YALE Frobenius 70         5  0.208334 0.000336  0.266016 0.008574  0.349913 0.007069 salt_pepper     0.10      0.5     per_image
-   YALE Frobenius 70         5  0.230008 0.000292  0.259135 0.007073  0.343468 0.012969 salt_pepper     0.10      0.7     per_image
-   YALE Frobenius 70         5  0.277706 0.000388  0.221850 0.011225  0.291168 0.012259 salt_pepper     0.20      0.5     per_image
-   YALE Frobenius 70         5  0.309168 0.000622  0.182148 0.005130  0.251873 0.007135 salt_pepper     0.30      0.3     per_image
-   YALE Frobenius 70         5  0.449971 0.000647  0.167178 0.009013  0.229917 0.008563 salt_pepper     0.30      0.7     per_image
-   YALE       L21 70         5  0.175162 0.000302  0.287959 0.011571  0.366824 0.014356 salt_pepper     0.01      0.5     per_image
-   YALE       L21 70         5  0.188944 0.000214  0.266574 0.008167  0.361070 0.009094 salt_pepper     0.05      0.3     per_image
-   YALE       L21 70         5  0.222522 0.000574  0.249186 0.008440  0.336308 0.008893 salt_pepper     0.10      0.5     per_image
-   YALE       L21 70         5  0.245206 0.000580  0.243143 0.011743  0.334205 0.012703 salt_pepper     0.10      0.7     per_image
-   YALE       L21 70         5  0.294504 0.000400  0.204556 0.012867  0.281781 0.008184 salt_pepper     0.20      0.5     per_image
-   YALE       L21 70         5  0.327023 0.000754  0.172664 0.006836  0.224950 0.005640 salt_pepper     0.30      0.3     per_image
-   YALE       L21 70         5  0.467787 0.000687  0.142445 0.005394  0.188377 0.008169 salt_pepper     0.30      0.7     per_image
+===== 2025-10-07 17:10:02.812964 == New Experiment: Salt & Pepper Noise =====
+dataset  nmf_type  k  max_runs  RRE_mean  RRE_std  ACC_mean  ACC_std  NMI_mean  NMI_std  noise_type  noise_p  noise_r block_ratio num_blocks normalization
+    ORL Frobenius 70         5  0.338437 0.000410  0.407778 0.024808  0.595852 0.021749 salt_pepper      0.3      0.7        None       None     per_image
+    ORL       L21 70         5  0.337522 0.000143  0.413889 0.023636  0.603896 0.022711 salt_pepper      0.3      0.7        None       None     per_image
+   YALE Frobenius 70         5  0.449709 0.000376  0.162343 0.006778  0.213613 0.007101 salt_pepper      0.3      0.7        None       None     per_image
+   YALE       L21 70         5  0.468636 0.000793  0.150628 0.006054  0.199411 0.013486 salt_pepper      0.3      0.7        None       None     per_image
 
-===== New Experiment: Block Noise =====
-dataset  nmf_type   k  max_runs  RRE_mean  RRE_std  ACC_mean  ACC_std  NMI_mean  NMI_std noise_type  noise_p  noise_r normalization
-    ORL Frobenius  10         5  0.297230 0.003099  0.377778 0.032155  0.571077 0.026361      block     0.05      0.5     per_image
-    ORL Frobenius  40         5  0.286575 0.000461  0.525556 0.022041  0.680696 0.021746      block     0.05      0.5     per_image
-    ORL Frobenius  70         5  0.277381 0.000212  0.565000 0.029324  0.710309 0.018888      block     0.05      0.5     per_image
-    ORL Frobenius 100         5  0.282692 0.000273  0.551667 0.025736  0.691200 0.021498      block     0.05      0.5     per_image
-    ORL Frobenius 130         5  0.268200 0.000292  0.546667 0.018954  0.696728 0.011627      block     0.05      0.5     per_image
-    ORL       L21  10         5  0.294531 0.002287  0.395556 0.014551  0.594174 0.010109      block     0.05      0.5     per_image
-    ORL       L21  40         5  0.286319 0.000691  0.491111 0.031788  0.659706 0.026906      block     0.05      0.5     per_image
-    ORL       L21  70         5  0.278071 0.000247  0.533333 0.020638  0.687621 0.011646      block     0.05      0.5     per_image
-    ORL       L21 100         5  0.268750 0.000253  0.560556 0.020062  0.707768 0.018432      block     0.05      0.5     per_image
-    ORL       L21 130         5  0.269350 0.000262  0.520556 0.018139  0.677293 0.011577      block     0.05      0.5     per_image
-   YALE Frobenius  10         5  0.523867 0.003181  0.084612 0.000975  0.080463 0.005201      block     0.05      0.5     per_image
-   YALE Frobenius  40         5  0.550697 0.000751  0.119758 0.005781  0.139862 0.011666      block     0.05      0.5     per_image
-   YALE Frobenius  70         5  0.552761 0.000495  0.125337 0.008595  0.150400 0.010572      block     0.05      0.5     per_image
-   YALE Frobenius 100         5  0.555728 0.000408  0.148210 0.014282  0.179568 0.020443      block     0.05      0.5     per_image
-   YALE Frobenius 130         5  0.560001 0.000150  0.157415 0.011360  0.190640 0.011230      block     0.05      0.5     per_image
-   YALE       L21  10         5  0.539273 0.002228  0.085449 0.001539  0.084242 0.004419      block     0.05      0.5     per_image
-   YALE       L21  40         5  0.560477 0.000992  0.113901 0.002181  0.137440 0.009998      block     0.05      0.5     per_image
-   YALE       L21  70         5  0.557665 0.000790  0.126546 0.005876  0.150773 0.005580      block     0.05      0.5     per_image
-   YALE       L21 100         5  0.561158 0.000444  0.144305 0.010034  0.174358 0.012792      block     0.05      0.5     per_image
-   YALE       L21 130         5  0.564600 0.000276  0.159926 0.017457  0.202245 0.020207      block     0.05      0.5     per_image
+===== 2025-10-07 17:25:33.878358 == New Experiment: Block Noise =====
+dataset  nmf_type  k  max_runs  RRE_mean  RRE_std  ACC_mean  ACC_std  NMI_mean  NMI_std noise_type noise_p noise_r block_ratio  num_blocks normalization
+    ORL Frobenius 40         5  0.175462 0.000225  0.692222 0.016611  0.828674 0.005033      block    None    None        None           1     per_image
+    ORL Frobenius 40         5  0.172111 0.000312  0.715556 0.016722  0.841414 0.010296      block    None    None        None           2     per_image
+    ORL Frobenius 40         5  0.170845 0.000566  0.705556 0.017033  0.834131 0.013274      block    None    None        None           3     per_image
+    ORL Frobenius 40         5  0.221365 0.000727  0.661667 0.015850  0.794182 0.004714      block    None    None        None           1     per_image
+    ORL Frobenius 40         5  0.198881 0.000446  0.691111 0.013194  0.822856 0.010322      block    None    None        None           2     per_image
+    ORL Frobenius 40         5  0.186942 0.000687  0.690556 0.017708  0.816527 0.009904      block    None    None        None           3     per_image
+    ORL Frobenius 40         5  0.269810 0.000402  0.516111 0.016044  0.681199 0.012144      block    None    None        None           1     per_image
+    ORL Frobenius 40         5  0.234288 0.000251  0.616667 0.007658  0.753221 0.004450      block    None    None        None           2     per_image
+    ORL Frobenius 40         5  0.215199 0.000402  0.649444 0.037035  0.782020 0.032802      block    None    None        None           3     per_image
+    ORL Frobenius 40         5  0.331016 0.000494  0.385556 0.021617  0.560381 0.025458      block    None    None        None           1     per_image
+    ORL Frobenius 40         5  0.284606 0.000162  0.492222 0.025483  0.660122 0.019924      block    None    None        None           2     per_image
+    ORL Frobenius 40         5  0.257699 0.000316  0.586667 0.009844  0.734075 0.009312      block    None    None        None           3     per_image
+    ORL       L21 40         5  0.176554 0.000486  0.706667 0.016537  0.824280 0.011802      block    None    None        None           1     per_image
+    ORL       L21 40         5  0.174233 0.000420  0.695556 0.023934  0.818967 0.017849      block    None    None        None           2     per_image
+    ORL       L21 40         5  0.172864 0.000398  0.715000 0.042550  0.837538 0.023174      block    None    None        None           3     per_image
+    ORL       L21 40         5  0.217090 0.000961  0.630000 0.040154  0.774071 0.023162      block    None    None        None           1     per_image
+    ORL       L21 40         5  0.195009 0.000552  0.690556 0.021126  0.812119 0.015988      block    None    None        None           2     per_image
+    ORL       L21 40         5  0.186209 0.000261  0.707222 0.020757  0.830348 0.015411      block    None    None        None           3     per_image
+    ORL       L21 40         5  0.265155 0.000508  0.531667 0.025495  0.695607 0.023564      block    None    None        None           1     per_image
+    ORL       L21 40         5  0.239522 0.000625  0.618333 0.019689  0.753045 0.016337      block    None    None        None           2     per_image
+    ORL       L21 40         5  0.214588 0.000401  0.657222 0.027364  0.789113 0.018356      block    None    None        None           3     per_image
+    ORL       L21 40         5  0.325580 0.000550  0.407778 0.018036  0.584523 0.019711      block    None    None        None           1     per_image
+    ORL       L21 40         5  0.276439 0.000420  0.512778 0.033683  0.674860 0.029903      block    None    None        None           2     per_image
+    ORL       L21 40         5  0.251161 0.000554  0.590556 0.017882  0.731512 0.020178      block    None    None        None           3     per_image
+   YALE Frobenius 38         5  0.211958 0.000410  0.220549 0.005751  0.303038 0.008170      block    None    None        None           1     per_image
+   YALE Frobenius 38         5  0.202501 0.000560  0.230962 0.010550  0.320827 0.018075      block    None    None        None           2     per_image
+   YALE Frobenius 38         5  0.199293 0.000489  0.243887 0.017362  0.324300 0.016652      block    None    None        None           3     per_image
+   YALE Frobenius 38         5  0.371346 0.001294  0.139005 0.008981  0.185143 0.015023      block    None    None        None           1     per_image
+   YALE Frobenius 38         5  0.291736 0.000454  0.154254 0.008488  0.208246 0.008492      block    None    None        None           2     per_image
+   YALE Frobenius 38         5  0.250617 0.000840  0.187355 0.006083  0.240894 0.007836      block    None    None        None           3     per_image
+   YALE Frobenius 38         5  0.516402 0.000862  0.105346 0.005729  0.122041 0.013062      block    None    None        None           1     per_image
+   YALE Frobenius 38         5  0.421465 0.000824  0.136774 0.004036  0.180780 0.011668      block    None    None        None           2     per_image
+   YALE Frobenius 38         5  0.356914 0.000459  0.141330 0.009219  0.178715 0.014292      block    None    None        None           3     per_image
+   YALE Frobenius 38         5  0.697094 0.001289  0.084147 0.002613  0.077089 0.006651      block    None    None        None           1     per_image
+   YALE Frobenius 38         5  0.548531 0.001373  0.110088 0.002341  0.136695 0.007088      block    None    None        None           2     per_image
+   YALE Frobenius 38         5  0.472806 0.000680  0.126174 0.005929  0.158941 0.011688      block    None    None        None           3     per_image
+   YALE       L21 38         5  0.221429 0.000200  0.231706 0.010814  0.305353 0.008831      block    None    None        None           1     per_image
+   YALE       L21 38         5  0.212546 0.000493  0.234775 0.017661  0.319040 0.009231      block    None    None        None           2     per_image
+   YALE       L21 38         5  0.209222 0.000285  0.245188 0.009480  0.329924 0.010396      block    None    None        None           3     per_image
+   YALE       L21 38         5  0.383575 0.000293  0.146165 0.005943  0.191355 0.010574      block    None    None        None           1     per_image
+   YALE       L21 38         5  0.297866 0.000658  0.168945 0.008931  0.222331 0.013616      block    None    None        None           2     per_image
+   YALE       L21 38         5  0.254265 0.000460  0.203719 0.003570  0.274022 0.004428      block    None    None        None           3     per_image
+   YALE       L21 38         5  0.526606 0.001537  0.111762 0.009882  0.133179 0.020225      block    None    None        None           1     per_image
+   YALE       L21 38         5  0.433089 0.001021  0.130823 0.007218  0.174236 0.013407      block    None    None        None           2     per_image
+   YALE       L21 38         5  0.367101 0.002216  0.152673 0.004701  0.192368 0.009243      block    None    None        None           3     per_image
+   YALE       L21 38         5  0.711215 0.001144  0.085263 0.001730  0.079019 0.006143      block    None    None        None           1     per_image
+   YALE       L21 38         5  0.557491 0.000813  0.111111 0.007154  0.134368 0.016521      block    None    None        None           2     per_image
+   YALE       L21 38         5  0.477691 0.000865  0.119944 0.007345  0.148188 0.010537      block    None    None        None           3     per_image
 
